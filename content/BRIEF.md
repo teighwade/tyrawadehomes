@@ -18,7 +18,7 @@ One website that combines Teigh Wade's three sites (tyrawadehomes.com, teighwade
   - Notary public serving the Surprise area since 2010.
   - Completed the NNA (National Notary Association) certified signing agent program, with mortgage/loan document experience.
   - Statewide service.
-  - Services: mobile notary, loan signings and closings, mobile fingerprinting, processing papers, translation services. She holds an FBI background clearance card.
+  - Services: mobile notary, loan signings and closings, processing papers, translation services. She does NOT do fingerprinting; never mention fingerprinting. She holds an FBI background clearance card.
   - Short-notice, last-minute and emergency appointments welcome, 24 hours a day, 7 days a week. She travels to your home, office, hospital, care facility, or a public place.
 - Notary fees (Arizona law, verified):
   - Arizona caps notary fees at **$10 per notarial act / per signature** (Ariz. Admin. Code R2-12-1102). Travel fees are separate and agreed before the appointment.
@@ -70,4 +70,4 @@ Warm, confident, plain English, a little personality (she's "THE Real T"). Short
 Allowed HTML in `html`: `<p> <ul> <ol> <li> <strong> <em> <h3>` and `<a href="/internal-path/">` linking only to the real site paths below. Escape & as &amp;.
 
 ## Site paths (internal links may use only these)
-/ /about/ /contact/ /search/ /my-listings/ /sell-your-home/ /whats-my-home-worth/ /home-staging/ /buy-a-home/ /first-time-home-buyers/ /areas/ /areas/surprise/ /areas/waddell/ /areas/wickenburg/ /areas/glendale/ /areas/peoria/ /areas/sun-city/ /areas/sun-city-west/ /areas/el-mirage/ /areas/goodyear/ /areas/buckeye/ /areas/litchfield-park/ /areas/phoenix/ /guides/ /guides/home-selling-checklist/ /guides/arizona-home-buying-process/ /guides/buying-in-a-55-plus-community/ /guides/moving-to-the-west-valley/ /mobile-notary/ /loan-signing-agent/ /fingerprinting-and-more/ /wedding-officiant/ /more-than-a-realtor/ /faq/
+/ /about/ /contact/ /search/ /my-listings/ /sell-your-home/ /whats-my-home-worth/ /home-staging/ /buy-a-home/ /first-time-home-buyers/ /areas/ /areas/surprise/ /areas/waddell/ /areas/wickenburg/ /areas/glendale/ /areas/peoria/ /areas/sun-city/ /areas/sun-city-west/ /areas/el-mirage/ /areas/goodyear/ /areas/buckeye/ /areas/litchfield-park/ /areas/phoenix/ /guides/ /guides/home-selling-checklist/ /guides/arizona-home-buying-process/ /guides/buying-in-a-55-plus-community/ /guides/moving-to-the-west-valley/ /mobile-notary/ /loan-signing-agent/ /wedding-officiant/ /more-than-a-realtor/ /faq/

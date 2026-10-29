@@ -128,7 +128,7 @@ export default async function HomePage() {
             <div>
               <p className="eyebrow" style={{ color: 'var(--gold)' }}>Mobile notary · 24/7</p>
               <h2>Need something notarized? I'll come to you.</h2>
-              <p>Homes, offices, hospitals, care facilities or a convenient meeting spot, anywhere in the West Valley and statewide. Loan signings, fingerprinting, real estate, medical, family and business documents. Short notice welcome.</p>
+              <p>Homes, offices, hospitals, care facilities or a convenient meeting spot, anywhere in the West Valley and statewide. Loan signings, real estate, medical, family and business documents. Short notice welcome.</p>
               <div className="btn-row" style={{ marginTop: 22 }}>
                 <a className="btn btn--clay" href={NOTARY_TEL}><Phone />{NOTARY_PHONE}</a>
                 <a className="btn btn--light" href="/mobile-notary/">Notary services</a>

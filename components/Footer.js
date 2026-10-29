@@ -43,7 +43,6 @@ export default function Footer() {
             <ul>
               <li><a href="/mobile-notary/">Mobile notary</a></li>
               <li><a href="/loan-signing-agent/">Loan signing agent</a></li>
-              <li><a href="/fingerprinting-and-more/">Fingerprinting &amp; more</a></li>
               <li><a href="/wedding-officiant/">Wedding officiant</a></li>
               <li><a href="/more-than-a-realtor/">More than a REALTOR®</a></li>
               <li><a href="/about/">About Teigh</a></li>

@@ -4,7 +4,7 @@ import PageView, { metaFor } from '../../components/PageView';
 import { notaryNode } from '../../lib/schema';
 import Social from '../../components/Social';
 
-const NOTARY = ['/mobile-notary/', '/loan-signing-agent/', '/fingerprinting-and-more/', '/wedding-officiant/'];
+const NOTARY = ['/mobile-notary/', '/loan-signing-agent/', '/wedding-officiant/'];
 const pathOf = (slug) => '/' + slug.join('/') + '/';
 
 export const dynamicParams = false;

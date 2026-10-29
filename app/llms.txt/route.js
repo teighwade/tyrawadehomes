@@ -35,7 +35,6 @@ export function GET() {
     '- Notary fees: Arizona caps notary fees at $10 per notarial act; travel fees are agreed in advance. Most appointments are $25 ($10 notary fee plus a travel fee that is usually $15).',
     link('/mobile-notary/', 'Mobile notary'),
     link('/loan-signing-agent/', 'Loan signing agent'),
-    link('/fingerprinting-and-more/', 'Fingerprinting and more'),
     link('/wedding-officiant/', 'Wedding officiant'),
     link('/more-than-a-realtor/', 'More than a REALTOR®'),
     '',

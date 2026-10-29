@@ -1,4 +1,4 @@
-import { NAME, PHONE, TEL, SMS, EMAIL, NOTARY_PHONE, NOTARY_TEL, LICENSE, TEAM, BROKERAGE, BROKERAGE_LICENSE, OFFICE, AREAS } from '../lib/site';
+import { NAME, PHONE, TEL, SMS, EMAIL, NOTARY_PHONE, NOTARY_TEL, LICENSE, TEAM, BROKERAGE, BROKERAGE_LICENSE, AREAS } from '../lib/site';
 import { Mark, EqualHousing, Phone, Chat } from './Icons';
 import Social from './Social';
 
@@ -15,7 +15,6 @@ export default function Footer() {
               <li><a href={TEL}>Call {PHONE}</a> · <a href={SMS}>Text</a></li>
               <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
               <li>Notary line: <a href={NOTARY_TEL}>{NOTARY_PHONE}</a> (24/7)</li>
-              <li>{OFFICE.street}, {OFFICE.city}, {OFFICE.region} {OFFICE.postal} ({OFFICE.note.toLowerCase()})</li>
             </ul>
             <Social variant="icons" />
           </div>

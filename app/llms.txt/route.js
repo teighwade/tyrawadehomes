@@ -1,5 +1,5 @@
 import { getByPath, getAreas, getGuides, getFaqCategories } from '../../lib/content';
-import { SITE_URL, PHONE, EMAIL, NOTARY_PHONE, LICENSE, TEAM, BROKERAGE, OFFICE, AREAS } from '../../lib/site';
+import { SITE_URL, PHONE, EMAIL, NOTARY_PHONE, LICENSE, TEAM, BROKERAGE, AREAS } from '../../lib/site';
 
 export const dynamic = 'force-static';
 
@@ -15,7 +15,6 @@ export function GET() {
     `- Real estate (call or text): ${PHONE}`,
     `- Email: ${EMAIL}`,
     `- Mobile notary (24/7, by appointment): ${NOTARY_PHONE}`,
-    `- Office (by appointment): ${OFFICE.street}, ${OFFICE.city}, ${OFFICE.region} ${OFFICE.postal}`,
     '',
     '## Real estate',
     link('/sell-your-home/', 'Sell your home'),

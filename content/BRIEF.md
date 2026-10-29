@@ -34,7 +34,7 @@ One website that combines Teigh Wade's three sites (tyrawadehomes.com, teighwade
   - Web design through Visibly Online.
   - Keep these short and link out. They are "More than a Realtor" background, not the focus.
 - Personal: three dogs (Monsieur Olie', Paris and ChiChi) and a rat named Templeton. Loves meeting people and watching them succeed.
-- Social: Facebook (TeighWade, TeighJordan), Instagram (2023realt), YouTube and X (TheRealTRealty), LinkedIn, Google reviews.
+- Social: Facebook (TeighWade, TeighJordan), Instagram (2023realt), X (TheRealTRealty), LinkedIn, Google reviews.
 
 ## Legal and honesty rules (very important)
 - **Fair Housing:**

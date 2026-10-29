@@ -7,6 +7,7 @@ const PATHS = {
   x: <path d="M4 4l16 16M20 4 4 20" />,
   linkedin: <><rect x="3" y="3" width="18" height="18" rx="3" /><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7" /></>,
   homesmart: <path d="m3 11 9-7 9 7M5 10v10h14V10" />,
+  homes: <><path d="m3 11 9-7 9 7M5 10v10h14V10" /><path d="M10 20v-6h4v6" /></>,
   google: <><path d="M20 12a8 8 0 1 1-2.3-5.7" /><path d="M20 12h-8" /></>,
 };
 

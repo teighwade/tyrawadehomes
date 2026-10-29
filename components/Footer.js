@@ -26,6 +26,7 @@ export default function Footer() {
             <ul>
               <li><a href="/sell-your-home/">Sell your home</a></li>
               <li><a href="/whats-my-home-worth/">What's my home worth?</a></li>
+              <li><a href="/home-staging/">Home staging</a></li>
               <li><a href="/buy-a-home/">Buy a home</a></li>
               <li><a href="/first-time-home-buyers/">First-time buyers</a></li>
               <li><a href="/search/">Search homes</a></li>

@@ -13,6 +13,7 @@ export const Clock = () => <svg {...P}><circle cx="12" cy="12" r="10" /><path d=
 export const Heart = () => <svg {...P}><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z" /></svg>;
 export const Rings = () => <svg {...P}><circle cx="9" cy="14" r="6" /><circle cx="15" cy="14" r="6" /><path d="m9 4 3-2 3 2" /></svg>;
 export const Book = () => <svg {...P}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z" /><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5" /></svg>;
+export const Sparkle = () => <svg {...P}><path d="M12 3l1.8 4.9L19 9.7l-5.2 1.8L12 16.5l-1.8-5L5 9.7l5.2-1.8z" /><path d="M19 15l.7 1.8 1.8.7-1.8.7L19 20l-.7-1.8-1.8-.7 1.8-.7z" /></svg>;
 export const Arrow = () => <svg {...P}><path d="M5 12h14M13 5l7 7-7 7" /></svg>;
 
 // Equal Housing Opportunity mark (house with equals sign)

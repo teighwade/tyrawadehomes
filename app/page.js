@@ -5,7 +5,7 @@ import { graph, notaryNode } from '../lib/schema';
 import JsonLd from '../components/JsonLd';
 import { ListingCard } from '../components/Listings';
 import { Cta } from '../components/PageView';
-import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow } from '../components/Icons';
+import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow, Sparkle } from '../components/Icons';
 
 export const revalidate = 3600;
 
@@ -61,11 +61,13 @@ export default async function HomePage() {
             <h2>Selling, buying, or somewhere in between</h2>
             <p>Mobile consultations at your kitchen table, honest pricing, and someone who answers the phone. That's the job.</p>
           </div>
-          <div className="grid grid--4">
+          <div className="grid grid--3">
             <a className="card" href="/sell-your-home/"><span className="card__icon"><HomeIcon /></span><h3>Sell your home</h3><p>Pricing strategy, prep and staging tips, marketing, showings and negotiation through closing.</p><span className="card__go">Selling with Teigh <Arrow /></span></a>
             <a className="card" href="/buy-a-home/"><span className="card__icon"><Key /></span><h3>Buy a home</h3><p>Pre-approval referrals, tours, strong offers, inspections and a calm path to the closing table.</p><span className="card__go">Buying with Teigh <Arrow /></span></a>
             <a className="card" href="/whats-my-home-worth/"><span className="card__icon"><Tag /></span><h3>Home value</h3><p>A real comparative market analysis, not an algorithm guess, for your specific home.</p><span className="card__go">Get your number <Arrow /></span></a>
             <a className="card" href="/first-time-home-buyers/"><span className="card__icon"><Check /></span><h3>First-time buyers</h3><p>Step-by-step help, Arizona down payment assistance basics and no question too small.</p><span className="card__go">Start here <Arrow /></span></a>
+            <a className="card" href="/home-staging/"><span className="card__icon"><Sparkle /></span><h3>Home staging</h3><p>Consultations, hands-on styling or full staging with my own furniture and decor. Included when you list with me.</p><span className="card__go">Staging services <Arrow /></span></a>
+            <a className="card" href="/mobile-notary/"><span className="card__icon"><Pen /></span><h3>Mobile notary</h3><p>Loan signings and everyday notarizations at your home, office or care facility, 24/7 by appointment.</p><span className="card__go">Notary services <Arrow /></span></a>
           </div>
         </div>
       </section>

@@ -20,6 +20,7 @@ export function GET() {
     '## Real estate',
     link('/sell-your-home/', 'Sell your home'),
     link('/whats-my-home-worth/', "What's my home worth?"),
+    link('/home-staging/', 'Home staging (consultations, hands-on and full staging; included for listing clients)'),
     link('/buy-a-home/', 'Buy a home'),
     link('/first-time-home-buyers/', 'First-time home buyers'),
     `- [Search homes for sale](${u('/search/')})`,

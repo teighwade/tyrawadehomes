@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { getByPath, allContentPaths } from '../../lib/content';
 import PageView, { metaFor } from '../../components/PageView';
 import { notaryNode } from '../../lib/schema';
+import Social from '../../components/Social';
 
 const NOTARY = ['/mobile-notary/', '/loan-signing-agent/', '/fingerprinting-and-more/', '/wedding-officiant/'];
 const pathOf = (slug) => '/' + slug.join('/') + '/';
@@ -39,6 +40,7 @@ export default async function ContentPage({ params }) {
       crumbsTrail={trail}
       notary={isNotary}
       before={page.kind === 'areas' ? <AreaFacts page={page} /> : path === '/about/' ? <img src="/images/teigh-wade-full-body.jpg" alt="Teigh Wade, REALTOR®" width="1600" height="1600" style={{ width: 'min(100%, 420px)', borderRadius: 24, margin: '0 0 32px', background: '#fff' }} /> : null}
+      after={path === '/about/' || path === '/contact/' ? <section><h2>Follow me on social media</h2><Social /></section> : null}
       extraSchema={isNotary ? [notaryNode()] : []}
     />
   );

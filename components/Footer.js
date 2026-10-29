@@ -1,5 +1,6 @@
-import { NAME, PHONE, TEL, SMS, EMAIL, NOTARY_PHONE, NOTARY_TEL, LICENSE, TEAM, BROKERAGE, BROKERAGE_LICENSE, OFFICE, SOCIAL, GOOGLE_REVIEW, AREAS } from '../lib/site';
+import { NAME, PHONE, TEL, SMS, EMAIL, NOTARY_PHONE, NOTARY_TEL, LICENSE, TEAM, BROKERAGE, BROKERAGE_LICENSE, OFFICE, AREAS } from '../lib/site';
 import { Mark, EqualHousing, Phone, Chat } from './Icons';
+import Social from './Social';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -16,10 +17,7 @@ export default function Footer() {
               <li>Notary line: <a href={NOTARY_TEL}>{NOTARY_PHONE}</a> (24/7)</li>
               <li>{OFFICE.street}, {OFFICE.city}, {OFFICE.region} {OFFICE.postal} ({OFFICE.note.toLowerCase()})</li>
             </ul>
-            <div className="social">
-              {SOCIAL.map((s) => <a key={s.label} href={s.href} rel="noopener" target="_blank">{s.label}</a>)}
-              <a href={GOOGLE_REVIEW} rel="noopener" target="_blank">Leave a Google review</a>
-            </div>
+            <Social variant="icons" />
           </div>
           <div>
             <h3>Real estate</h3>

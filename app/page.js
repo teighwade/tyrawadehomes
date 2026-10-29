@@ -5,6 +5,7 @@ import { graph, notaryNode } from '../lib/schema';
 import JsonLd from '../components/JsonLd';
 import { ListingCard } from '../components/Listings';
 import { Cta } from '../components/PageView';
+import Social from '../components/Social';
 import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow, Sparkle } from '../components/Icons';
 
 export const revalidate = 3600;
@@ -174,7 +175,15 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <div className="wrap" style={{ paddingBottom: 80 }}><Cta /></div>
+      <section className="section section--sand" style={{ padding: '56px 0' }}>
+        <div className="wrap">
+          <p className="eyebrow">Follow along</p>
+          <h2 style={{ fontSize: 34 }}>Find me on social media</h2>
+          <Social />
+        </div>
+      </section>
+
+      <div className="wrap" style={{ padding: '80px var(--gutter)' }}><Cta /></div>
     </>
   );
 }

@@ -186,8 +186,13 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .footer__legal svg { width: 44px; height: 44px; color: #e8e9ec; }
 .footer__legal p { margin: 0 0 6px; }
 .footer__credit { margin-top: 18px; font-size: 13px; color: #8c92a0; }
-.social { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
-.social a { padding: 7px 12px; border: 1px solid rgba(255,255,255,.18); border-radius: 999px; font-size: 13px; }
+.social { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0 0; padding: 0; list-style: none; }
+.social a { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; }
+.social--icons a { width: 40px; height: 40px; justify-content: center; border: 1px solid rgba(255,255,255,.2); border-radius: 50%; color: #e8e9ec; }
+.social--icons a:hover { background: var(--clay); border-color: var(--clay); color: #fff; }
+.social--pills a { padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px; background: #fff; color: var(--ink); font-weight: 600; font-size: 14.5px; }
+.social--pills a:hover { border-color: var(--clay); color: var(--clay-2); }
+.social--pills svg { color: var(--clay); }
 .mobile-bar { display: none; }
 @media (max-width: 700px) {
   .mobile-bar { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; position: fixed; left: 10px; right: 10px; bottom: 10px; z-index: 40; }

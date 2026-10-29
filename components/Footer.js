@@ -60,7 +60,7 @@ export default function Footer() {
             <p><strong style={{ color: '#e8e9ec' }}>{NAME}, REALTOR®</strong>, Arizona real estate salesperson license {LICENSE}. {TEAM}. Brokerage: <strong style={{ color: '#e8e9ec' }}>{BROKERAGE}</strong> (Arizona license {BROKERAGE_LICENSE}).</p>
             <p>Equal Housing Opportunity. Teigh is committed to the Fair Housing Act and serves all clients without regard to race, color, religion, sex, disability, familial status or national origin. REALTOR® is a federally registered collective membership mark identifying real estate professionals who are members of the National Association of REALTORS®.</p>
             <p>Information on this site is general and isn't legal, tax or lending advice. Listing information is deemed reliable but not guaranteed. Notary services are separate from real estate brokerage services.</p>
-            <p className="footer__credit">© {year} Teigh Wade Homes. All rights reserved. Website created by Visibly Online.</p>
+            <p className="footer__credit">© {year} Teigh Wade Homes. All rights reserved. This custom <a href="https://viwebmedia.com/" rel="noopener" target="_blank">website</a> was built and is managed by <a href="https://checkoutoursite.com/" rel="noopener" target="_blank">Teigh</a>. <a href="tel:+14805502871">480-550-2871</a></p>
           </div>
         </div>
       </div>

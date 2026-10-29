@@ -1,0 +1,79 @@
+{
+  "slug": "notary",
+  "title": "Mobile notary",
+  "intro": "Answers about Arizona notary rules and my mobile notary service, based in Surprise, AZ and available statewide. I am not an attorney licensed to practice law in this state. To book, call 833-363-7244.",
+  "faqs": [
+    {
+      "q": "What is the difference between an acknowledgment and a jurat?",
+      "a": "An acknowledgment confirms that you are who you say you are and that you signed the document willingly. A jurat goes further: you sign in front of me and swear or affirm that the contents of the document are true. The document or the office that requested it decides which one you need; I can't choose it for you."
+    },
+    {
+      "q": "What is an oath or affirmation?",
+      "a": "An oath or affirmation is a spoken promise, made before a notary under penalty of perjury, that a statement is true. An oath refers to a supreme being, and an affirmation doesn't, so you can choose whichever fits your beliefs. Oaths and affirmations are often part of a jurat, and they can also stand on their own."
+    },
+    {
+      "q": "Can I use an expired ID for a notarization?",
+      "a": "Generally, no. Arizona's accepted forms of identification, such as a driver license, nonoperating ID or U.S. passport, must be unexpired. If your ID has expired, renew it before the appointment if you can. If that isn't possible, call me first and we'll talk about whether a credible witness who personally knows you could vouch for your identity instead."
+    },
+    {
+      "q": "What if the signer doesn't have any ID?",
+      "a": "Arizona allows a credible witness to vouch for a signer's identity. The credible witness must personally know the signer, take an oath before me and sign my notary journal, and the signer signs the journal too. Call 833-363-7244 before booking so we can confirm the plan."
+    },
+    {
+      "q": "Can I show my ID on my phone?",
+      "a": "Sometimes. Arizona's notary manual allows a signer to prove identity with the official mobile ID app issued by the jurisdiction, such as a state's mobile driver license app. A photo or screenshot of your ID isn't the same thing and won't work. To avoid any problems on the day, bring your physical, unexpired ID to the appointment as well."
+    },
+    {
+      "q": "Can my document be notarized over a video call?",
+      "a": "Not by me. For a traditional Arizona notarization, the signer must appear in the notary's presence; a video call isn't allowed. Arizona does have remote online notarization, but it requires a separate authorization from the Secretary of State, and my appointments are in person. The good news is that I come to you, wherever you are in the state."
+    },
+    {
+      "q": "Why do I have to sign your notary journal?",
+      "a": "Arizona requires notaries to keep a journal of every notarial act. Each entry includes the date, a description of the document and the notarial act, the type of ID used, and the printed name, address and signature of each signer. The journal is a record that helps protect you and everyone else involved if a notarization is ever questioned."
+    },
+    {
+      "q": "Can a notary refuse to notarize a document?",
+      "a": "Yes. Arizona lets a notary refuse if they aren't satisfied that the signer has the capacity to sign or is signing knowingly and voluntarily. I'll also stop if the signer can't be properly identified. If I refuse, I note the reason in my journal. A handwritten document, on its own, isn't a reason to refuse."
+    },
+    {
+      "q": "Can you notarize a document with blank spaces?",
+      "a": "A jurat can't be done on a document with blank spaces or missing pages, and Arizona's Secretary of State recommends notaries not notarize acknowledgments with obvious blanks either. Fill in every blank before I arrive, and make sure all pages are there. If you're not sure what belongs in a blank, ask whoever prepared or requested the document; I can't fill it in or tell you what to write."
+    },
+    {
+      "q": "Can you notarize a document written in another language?",
+      "a": "Yes. Arizona notaries can notarize a document written in a foreign language, as long as the notarial certificate is in a language I read and understand. I also have to be able to communicate with the signer. If we need a translator to communicate, they must be physically present with the signer and me at the time of the notarization."
+    },
+    {
+      "q": "Are you a notario publico?",
+      "a": "No. In many countries, a notario is a licensed legal professional, but an Arizona notary public is not. Arizona notaries who aren't attorneys may not call themselves notario or notario publico. I am not an attorney licensed to practice law in this state, so I can't give legal advice or prepare legal documents for you."
+    },
+    {
+      "q": "Can you get an apostille for my document?",
+      "a": "No. Arizona notaries don't have the authority to issue apostilles or certificates of authentication. If your document is going to another country, ask the office that will receive it what it requires. I can notarize your signature on the document first, if a notarization is needed, and then you can request the apostille from the proper state office."
+    },
+    {
+      "q": "Can you make a certified copy of a document?",
+      "a": "Sometimes. Arizona notaries can certify a copy of a document that isn't a public record and can't be publicly recorded, and the fee is up to $10 per page certified. I can't certify copies of public records like birth certificates, court records or recorded deeds. For those, request a certified copy from the office that keeps the record."
+    },
+    {
+      "q": "Do you charge per document or per signature?",
+      "a": "The notary fee is per notarial act. For acknowledgments and jurats, Arizona caps the fee at $10 per notary signature, so a document with three notarized signatures has three notary fees. The travel fee is separate and quoted before the appointment. Tell me how many documents and signatures you have when you call, and I'll give you a total."
+    },
+    {
+      "q": "How far will you travel for a notary appointment?",
+      "a": "I'm based in Surprise, AZ, and work all over the West Valley, including Waddell, Wickenburg, Glendale, Peoria, Sun City, El Mirage, Goodyear, Buckeye and Phoenix. I also offer statewide service. The travel fee depends on the trip, and I always quote it before the appointment, so call 833-363-7244 with your location."
+    },
+    {
+      "q": "Can you notarize motor vehicle documents?",
+      "a": "Yes. Motor vehicle documents are among the paperwork I notarize, and I can meet you at your home, office or another location to sign them. Bring the complete, unsigned document and valid ID for each signer. If you aren't sure whether your vehicle paperwork needs a notarization, check with the agency or person who gave it to you first."
+    },
+    {
+      "q": "Can you notarize divorce paperwork?",
+      "a": "Yes. I notarize divorce paperwork, along with other family documents like adoption, domestic partnership documents and wills. I can't tell you which forms to file or what to put in them, so work with the court, your attorney or the person who prepared the documents for that. Once your paperwork is ready, call 833-363-7244 to book."
+    },
+    {
+      "q": "Do I need witnesses besides the notary?",
+      "a": "It depends on the document, not on the notary. Some documents, such as certain wills or healthcare directives, may call for witnesses in addition to a notarization. Check with whoever prepared or requested your document. If witnesses are required, have them at the appointment with their own ID, and tell me ahead of time so I'm prepared."
+    }
+  ]
+}

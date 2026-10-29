@@ -27,7 +27,7 @@ export const EqualHousing = () => (
 // Monogram mark: a T inside an arch (the brand's "Real T")
 export const Mark = ({ className = 'brand__mark' }) => (
   <svg className={className} viewBox="0 0 48 48" aria-hidden="true">
-    <path d="M6 44V22a18 18 0 0 1 36 0v22z" fill="#34698f" />
+    <path d="M6 44V22a18 18 0 0 1 36 0v22z" fill="#384c5b" />
     <path d="M15 20h18M24 20v18" stroke="#fffdf9" strokeWidth="3.6" strokeLinecap="round" />
     <path d="M12 44h24" stroke="#c4a062" strokeWidth="2" />
   </svg>

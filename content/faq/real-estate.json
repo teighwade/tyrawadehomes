@@ -1,0 +1,87 @@
+{
+  "slug": "real-estate",
+  "title": "Buying and selling a home",
+  "intro": "Direct answers to common questions about buying and selling a home in Arizona, from contracts and disclosures to closing. For help with your own situation, call or text Teigh Wade, REALTOR®, at 480-550-2871.",
+  "faqs": [
+    {
+      "q": "What is the AAR Residential Resale Real Estate Purchase Contract?",
+      "a": "It's the standard purchase contract most Arizona resale home transactions use, published by the Arizona Association of REALTORS®. It covers the price, financing, earnest money, disclosures, the inspection period, the appraisal, title, escrow and close of escrow, with set deadlines for each step. In Arizona it also serves as the escrow instructions. A real estate attorney can answer legal questions about it."
+    },
+    {
+      "q": "What is a title commitment, and how long do buyers have to review it?",
+      "a": "A title commitment is the title company's promise to insure the property's title, subject to listed exceptions and requirements such as easements, recorded restrictions or liens. Under the AAR purchase contract, the buyer has five days after receiving it, and after any later exception notices, to deliver written notice of items they disapprove. Questions about exceptions can go to the title officer or an attorney."
+    },
+    {
+      "q": "What is a loan status update in Arizona?",
+      "a": "A loan status update, or LSU, is a form from the buyer's lender that reports how the loan is progressing, such as what has been received and what is still needed. The AAR purchase contract calls for an LSU within ten days after contract acceptance. It helps the seller and both agents see whether financing is on track before close of escrow."
+    },
+    {
+      "q": "When does the final walkthrough happen?",
+      "a": "The final walkthrough happens shortly before close of escrow. It's the buyer's chance to confirm the home is in the condition the contract requires, that agreed repairs were completed and that included items such as appliances are still there. It isn't a second inspection period. If something is wrong, tell your agent right away so it can be addressed before closing."
+    },
+    {
+      "q": "Do Arizona sellers have to share an insurance claims history?",
+      "a": "Yes, under the AAR purchase contract the seller delivers a five-year insurance claims history for the property within five days after contract acceptance. Buyers can review it alongside the SPDS and inspection reports for clues about past water, roof or other losses. It's also worth asking your own insurance agent how the home's history might affect your coverage."
+    },
+    {
+      "q": "Is a home warranty worth it?",
+      "a": "A home warranty is a service contract that may cover repair or replacement of certain systems and appliances, such as the AC, water heater or plumbing, after you pay a service fee. It's different from homeowners insurance. Whether it's worth it depends on the age of the home's systems and the plan's terms. Buyers sometimes ask the seller to pay for one."
+    },
+    {
+      "q": "What are seller concessions?",
+      "a": "Seller concessions are money the seller agrees to put toward the buyer's closing costs or other expenses, written into the purchase contract or negotiated later, for example after the BINSR. They can help a buyer with limited cash, but they affect the seller's net proceeds. Loan programs may limit how much is allowed, so buyers should check with their lender first."
+    },
+    {
+      "q": "When do I get the keys after closing?",
+      "a": "You get the keys when possession transfers under your contract, which is commonly at close of escrow, meaning once the sale has recorded with the county. Signing documents doesn't mean the sale is complete yet; funding and recording come next. If the seller needs to stay a short time after closing, that arrangement should be agreed in writing beforehand."
+    },
+    {
+      "q": "Can I sell my home as-is in Arizona?",
+      "a": "Yes, you can tell buyers you won't make repairs. Buyers still usually have their inspection period under the contract and can cancel if they don't like what they find. Selling as-is also doesn't remove your duty to disclose known material facts, so you'd still complete the SPDS honestly. A CMA helps set a price that reflects the home's condition."
+    },
+    {
+      "q": "Can a buyer cancel after the inspection period ends?",
+      "a": "Sometimes, but the options narrow. After the inspection period, other contingencies in the contract may still apply, such as the appraisal contingency or the loan contingency, each with its own rules and deadlines. Cancelling without a contractual reason can put the buyer's earnest money at risk. If you're thinking about cancelling, talk with your agent right away and consider legal advice."
+    },
+    {
+      "q": "Do septic systems need an inspection when a home sells in Arizona?",
+      "a": "Yes. Under Arizona Department of Environmental Quality rules, an on-site wastewater system, such as a septic system, must have a transfer inspection by a qualified inspector within six months before the transfer of ownership. If you're buying or selling a home with a septic system, plan for this inspection early so it doesn't hold up closing."
+    },
+    {
+      "q": "What disclosures apply to homes built before 1978?",
+      "a": "For homes built before 1978, federal rules require the seller to give the buyer a lead hazard information pamphlet and disclose any known lead-based paint information. The buyer also gets an opportunity, typically ten days unless agreed otherwise, for a lead-based paint risk assessment or inspection, unless they waive it. This applies in addition to the SPDS."
+    },
+    {
+      "q": "How can I avoid wire fraud when buying or selling a home?",
+      "a": "Never send money based on wiring instructions received only by email or text. Criminals impersonate escrow officers and agents with convincing messages. Before wiring anything, call the escrow company at a phone number you've verified independently, such as from your contract or the company's official website, and confirm the instructions. If anything changes suddenly, stop and verify again."
+    },
+    {
+      "q": "What is a contingent offer?",
+      "a": "A contingent offer depends on something happening first, most often the buyer selling their current home. It protects the buyer from owning two homes at once, but some sellers prefer offers without that condition. Every AAR contract also includes standard contingencies, like the inspection period and appraisal. Your agent can explain how a sale contingency might affect your offer's strength."
+    },
+    {
+      "q": "What is the difference between pre-qualification and pre-approval?",
+      "a": "Pre-qualification is usually a quick estimate based on information you provide. Pre-approval goes further: the lender reviews your income, assets and credit and issues a letter stating what it's willing to lend, subject to conditions. Sellers usually take pre-approval more seriously. Talk with a lender about which one you have and what's still needed for final loan approval."
+    },
+    {
+      "q": "What Arizona-specific issues should buyers look into?",
+      "a": "Arizona buyers should check a few things that may not come up elsewhere. Some areas have expansive clay soils, earth fissures or subsidence, which a structural engineer can evaluate. Confirm the water provider, or the well, for the property. Ask whether flood insurance is needed. Review HOA rules carefully. Your inspection period is the time to research all of these."
+    },
+    {
+      "q": "What is an Affidavit of Disclosure in Arizona?",
+      "a": "It's a statutory disclosure required for certain sales of land in unincorporated areas of a county. The seller must provide it at least seven days before the transfer, and under the AAR contract within five days after acceptance. The buyer then has five days after receiving it to rescind. Ask your agent or an attorney whether it applies to your property."
+    },
+    {
+      "q": "Who pays for the home inspection?",
+      "a": "The buyer usually pays for the home inspection and any specialized inspections they choose, such as roof, pool, sewer or pest inspections. These are typically paid when the inspection is done, not at closing. Since the inspection protects the buyer, it's worth choosing a qualified inspector. Your agent can share referrals, but you're welcome to hire anyone you like."
+    },
+    {
+      "q": "Do I need a real estate attorney to buy or sell a home in Arizona?",
+      "a": "An attorney isn't part of every Arizona transaction, because title and escrow companies handle the closing and the AAR contract serves as the escrow instructions. Your agent explains the process but can't give legal advice. Consider hiring a real estate attorney if you have legal questions about the contract, title issues, a dispute or an unusual situation."
+    },
+    {
+      "q": "Should I make repairs before listing my home?",
+      "a": "Fix items that buyers will notice and that inspections commonly flag, such as leaks, broken fixtures and AC problems, and keep receipts. Major remodels right before selling often don't pay for themselves, so get advice first. Repairs you skip may come up in the BINSR anyway. A walkthrough with your listing agent can help you set priorities."
+    }
+  ]
+}

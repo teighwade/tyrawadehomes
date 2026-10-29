@@ -1,0 +1,47 @@
+{
+  "path": "/contact/",
+  "title": "Contact Teigh Wade",
+  "seoTitle": "Contact Teigh Wade in Surprise, AZ | Teigh Wade REALTOR®",
+  "description": "Contact Teigh Wade, REALTOR®, in Surprise, AZ. Call or text 480-550-2871 for real estate, email tyrawadehomes@gmail.com, or call 833-363-7244 for a notary.",
+  "eyebrow": "Contact",
+  "summary": "For real estate, call or text me at 480-550-2871 or email tyrawadehomes@gmail.com. For mobile notary and loan signing appointments, call 833-363-7244. I'm based in Surprise, Arizona, and I come to you, so there's no office to visit. Tell me a little about what you need and I'll get back to you.",
+  "sections": [
+    {
+      "h2": "How to reach me",
+      "html": "<ul><li><strong>Real estate (call or text):</strong> 480-550-2871</li><li><strong>Email:</strong> tyrawadehomes@gmail.com</li><li><strong>Notary and loan signings:</strong> 833-363-7244 (833-EnerCHI)</li></ul><p>Texting is a great way to reach me if you're busy. Send your name, what you need help with and a good time to talk, and I'll reply as soon as I can.</p>"
+    },
+    {
+      "h2": "Appointments: I come to you",
+      "html": "<p>I'm Teigh Wade, REALTOR® with HomeSmart Elite Group, HomeSmart, based in Surprise, Arizona. I don't publish an office address because I meet clients where it's convenient for them. My buyer and listing consultations are mobile, so I can meet you at your home, the property you're selling or another spot that works for you.</p><p>Notary appointments are by appointment, Monday through Sunday. I welcome short-notice, last-minute and emergency requests 24 hours a day, 7 days a week, and I travel to homes, offices, hospitals, care facilities and public places. See my <a href=\"/mobile-notary/\">mobile notary</a> page for details.</p>"
+    },
+    {
+      "h2": "What to have ready when you call",
+      "html": "<h3>Selling a home</h3><p>Have the property address and your timeline ready. It also helps to know whether you're buying another home, whether the home has an HOA, pool or solar, and any major updates you've made. If you just want to know your home's value, see <a href=\"/whats-my-home-worth/\">what's my home worth</a>.</p><h3>Buying a home</h3><p>Let me know your pre-approval status, the areas you're considering, your timing and what you need in a home. Not pre-approved yet? That's fine. I can refer you to lenders. You can also start browsing on the <a href=\"/search/\">home search</a>.</p><h3>Notary appointments</h3><p>Tell me the type of document, how many people will be signing and where you'd like to meet. Every signer needs acceptable identification, usually a current government-issued photo ID. As a notary, I can't give legal advice or choose a document for you, so check with an attorney or the agency requesting the document if you're not sure what you need.</p>"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best way to contact Teigh Wade about real estate?",
+      "a": "Call or text 480-550-2871, or email tyrawadehomes@gmail.com. Texting works well if you're busy: include your name, whether you're buying or selling, and a good time to talk. I'll reply as soon as I can and set up a mobile consultation at your home or another place that's convenient for you."
+    },
+    {
+      "q": "Does Teigh Wade have an office I can visit?",
+      "a": "I'm based in Surprise, Arizona, but I don't publish an office address. Instead, I come to you. Real estate consultations are mobile, and notary appointments take place at your home, office, a hospital, a care facility or a public place. Just let me know where works best when you call or text."
+    },
+    {
+      "q": "How do I book a mobile notary appointment?",
+      "a": "Call the notary line at 833-363-7244. Have the document type, the number of signers and your preferred location ready. Each signer needs acceptable identification, usually a current government-issued photo ID. Appointments are available Monday through Sunday, and short-notice and emergency requests are welcome around the clock."
+    },
+    {
+      "q": "What should I have ready before calling about buying or selling?",
+      "a": "Sellers should have the property address and their timeline, plus any details about updates, HOA, pool or solar. Buyers should know their pre-approval status, preferred areas and timing. If you aren't pre-approved yet, that's okay, because I can refer you to lenders. The more I know up front, the more useful our first conversation will be."
+    }
+  ],
+  "related": [
+    "/sell-your-home/",
+    "/buy-a-home/",
+    "/whats-my-home-worth/",
+    "/mobile-notary/",
+    "/about/"
+  ]
+}

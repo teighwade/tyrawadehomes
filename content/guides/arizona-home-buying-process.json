@@ -4,7 +4,7 @@
   "seoTitle": "Arizona Home Buying Process Steps | Teigh Wade REALTOR®",
   "description": "How buying a home in Arizona works: buyer-broker agreement, pre-approval, offer, earnest money, inspection period, BINSR, appraisal, escrow and recording.",
   "eyebrow": "Buyer guide",
-  "readMinutes": 12,
+  "readMinutes": 11,
   "summary": "Buying a home in Arizona follows a set path: sign a buyer-broker agreement, get pre-approved, make an offer on the standard AAR contract, deposit earnest money, inspect during the inspection period, negotiate repairs on the BINSR, clear appraisal and loan conditions, review HOA documents, do a final walkthrough, sign with escrow, then fund and record.",
   "sections": [
     {
@@ -94,5 +94,11 @@
       "a": "The standard Arizona REALTORS® resale contract calls for the seller to convey title by warranty deed. Other Arizona deed types include the special warranty deed, quitclaim deed, disclaimer deed and beneficiary deed, each used in different situations. How you take title, called vesting, has legal and tax effects, so it's best to ask an attorney or tax professional before closing."
     }
   ],
-  "related": ["/buy-a-home/", "/first-time-home-buyers/", "/search/", "/guides/buying-in-a-55-plus-community/", "/contact/"]
+  "related": [
+    "/buy-a-home/",
+    "/first-time-home-buyers/",
+    "/search/",
+    "/guides/buying-in-a-55-plus-community/",
+    "/contact/"
+  ]
 }

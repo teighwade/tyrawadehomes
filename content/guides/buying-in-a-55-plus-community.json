@@ -4,8 +4,8 @@
   "seoTitle": "Buying in a 55+ Community in Arizona | Teigh Wade REALTOR®",
   "description": "What age-restricted means under federal and Arizona law, West Valley 55+ communities, recreation fees, CC&Rs, guest and golf cart rules, and selling there.",
   "eyebrow": "Buyer guide",
-  "readMinutes": 9,
-  "summary": "A 55+ community is housing that qualifies for the federal Housing for Older Persons Act exemption: at least 80% of occupied homes have at least one resident 55 or older, the community publishes age policies, and it verifies ages. West Valley examples include Sun City, Sun City West, Sun City Grand, PebbleCreek and Corte Bella. Each has its own CC&Rs, fees and rules.",
+  "readMinutes": 10,
+  "summary": "A 55+ community is housing that qualifies for the federal Housing for Older Persons Act exemption: at least 80% of occupied homes have at least one resident 55 or older, the community publishes age policies, and it verifies ages. West Valley examples include Sun City, Sun City West, Sun City Grand, PebbleCreek and Corte Bella, each with its own rules.",
   "sections": [
     {
       "h2": "What age-restricted means legally",
@@ -13,7 +13,7 @@
     },
     {
       "h2": "West Valley 55+ community examples",
-      "html": "<p>The West Valley has several of Arizona's best-known age-restricted communities. Here are five, described by their setting and facilities.</p><h3>Sun City</h3><p>Del Webb opened Sun City on January 1, 1960, and it's one of the first large planned communities of its kind in the country. It's an unincorporated community in Maricopa County. Recreation facilities are run by the Recreation Centers of Sun City (RCSC), which operates recreation centers and golf courses, and deed restrictions are enforced by the Sun City Home Owners Association. See <a href=\"/areas/sun-city/\">Sun City</a>.</p><h3>Sun City West</h3><p>Del Webb began Sun City West in the late 1970s, northwest of the original Sun City. It's also unincorporated Maricopa County. The Recreation Centers of Sun City West run its recreation centers, golf courses, pools, a bowling center and club facilities. See <a href=\"/areas/sun-city-west/\">Sun City West</a>.</p><h3>Sun City Grand</h3><p>Sun City Grand is a Del Webb community in the city of Surprise that opened in 1996 and was built out in the mid-2000s. It has several amenity centers and four golf courses, managed through its community association. See <a href=\"/areas/surprise/\">Surprise</a>.</p><h3>PebbleCreek</h3><p>PebbleCreek is a guard-gated 55+ community in Goodyear developed by Robson Resort Communities, established in 1993. Its facilities include the Tuscany Falls Golf Club, the Eagle's Nest clubhouse, a sports and aquatics complex, pickleball courts and a creative arts center. See <a href=\"/areas/goodyear/\">Goodyear</a>.</p><h3>Corte Bella</h3><p>Corte Bella is a guard-gated, age-restricted community with a Sun City West mailing address, built in the 2000s. It's separate from Sun City West, with its own homeowners association and amenity center, and its residents don't use Sun City West's recreation centers. The golf club is privately owned and operates separately from the HOA, with its own membership.</p><p>Every community's age rules are a little different. Always read the current CC&amp;Rs and rules for the specific home you're considering.</p>"
+      "html": "<p>The West Valley has several of Arizona's best-known age-restricted communities. Here are five, described by their setting and facilities.</p><h3>Sun City</h3><p>Del Webb opened Sun City on January 1, 1960. It's an unincorporated community in Maricopa County. Recreation facilities are run by the Recreation Centers of Sun City (RCSC), which operates recreation centers and golf courses, and deed restrictions are enforced by the Sun City Home Owners Association. See <a href=\"/areas/sun-city/\">Sun City</a>.</p><h3>Sun City West</h3><p>Del Webb began Sun City West in the late 1970s, northwest of the original Sun City. It's also unincorporated Maricopa County. The Recreation Centers of Sun City West run its recreation centers, golf courses, pools, a bowling center and club facilities. See <a href=\"/areas/sun-city-west/\">Sun City West</a>.</p><h3>Sun City Grand</h3><p>Sun City Grand is a Del Webb community in the city of Surprise that opened in 1996 and was built out in the mid-2000s. It has several amenity centers and four golf courses, managed through its community association. See <a href=\"/areas/surprise/\">Surprise</a>.</p><h3>PebbleCreek</h3><p>PebbleCreek is a guard-gated 55+ community in Goodyear developed by Robson Resort Communities, established in 1993. Its facilities include the Tuscany Falls Golf Club, the Eagle's Nest clubhouse, a sports and aquatics complex, pickleball courts and a creative arts center. See <a href=\"/areas/goodyear/\">Goodyear</a>.</p><h3>Corte Bella</h3><p>Corte Bella is a guard-gated, age-restricted community with a Sun City West mailing address, built in the 2000s. It's separate from Sun City West, with its own homeowners association and amenity center, and its residents don't use Sun City West's recreation centers. The golf club is privately owned and operates separately from the HOA, with its own membership.</p><p>Every community's age rules are a little different. Always read the current CC&amp;Rs and rules for the specific home you're considering.</p>"
     },
     {
       "h2": "Recreation centers, memberships, dues and fees",
@@ -42,7 +42,7 @@
       "a": "Sometimes. Federal law requires only that 80% of occupied homes have at least one resident 55 or older, but each community sets its own rules in its CC&Rs. Many allow a younger spouse or partner to live with a qualifying resident, and some set a minimum age for every resident. Check the specific community's CC&Rs and rules before you buy."
     },
     {
-      "q": "Can grandchildren or younger guests visit?",
+      "q": "Can younger guests visit a 55+ community?",
       "a": "Yes, visits are allowed, but communities limit how long guests under a certain age may stay. In parts of unincorporated Maricopa County, a Senior Citizen overlay zoning district also limits stays by people 18 and younger. Recreation centers may require guest passes or daily guest fees. Read the community's guest rules in the HOA documents so you know the limits."
     },
     {
@@ -62,5 +62,11 @@
       "a": "You can generally inherit and own the home, but you may not be able to live in it if you don't meet the community's age rules. Common choices are selling the home or renting it to a qualifying tenant where the rules allow. Estate, probate and tax questions should go to an attorney or tax professional. Teigh can provide a market analysis if you decide to sell."
     }
   ],
-  "related": ["/areas/sun-city/", "/areas/sun-city-west/", "/guides/arizona-home-buying-process/", "/guides/moving-to-the-west-valley/", "/contact/"]
+  "related": [
+    "/areas/sun-city/",
+    "/areas/sun-city-west/",
+    "/guides/arizona-home-buying-process/",
+    "/guides/moving-to-the-west-valley/",
+    "/contact/"
+  ]
 }

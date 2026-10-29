@@ -14,7 +14,6 @@ export default function Footer() {
             <ul>
               <li><a href={TEL}>Call {PHONE}</a> · <a href={SMS}>Text</a></li>
               <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
-              <li>Notary line: <a href={NOTARY_TEL}>{NOTARY_PHONE}</a> (24/7)</li>
             </ul>
             <Social variant="icons" />
           </div>

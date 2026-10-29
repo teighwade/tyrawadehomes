@@ -4,7 +4,7 @@
   "seoTitle": "Arizona Home Selling Checklist | Teigh Wade REALTOR®",
   "description": "A step-by-step Arizona home selling checklist from 90 days out to closing: repairs, staging, desert curb appeal, documents, showings, the BINSR and utilities.",
   "eyebrow": "Seller guide",
-  "readMinutes": 9,
+  "readMinutes": 12,
   "summary": "Start about 90 days before you list. Handle repairs and permits first, then declutter and stage, refresh desert curb appeal, and gather HOA, solar and warranty paperwork. Once under contract, expect the buyer's inspection period and a BINSR repair request, then plan the move and transfer utilities so they shut off after close of escrow.",
   "sections": [
     {
@@ -82,5 +82,11 @@
       "a": "Under the standard Arizona REALTORS® resale contract, the buyer gets possession and keys at close of escrow, which happens when the deed is recorded with the county recorder. The parties can agree to a different possession date in writing, but early or late possession carries risks, so talk with your insurance agent and an attorney first."
     }
   ],
-  "related": ["/sell-your-home/", "/home-staging/", "/whats-my-home-worth/", "/guides/arizona-home-buying-process/", "/contact/"]
+  "related": [
+    "/sell-your-home/",
+    "/home-staging/",
+    "/whats-my-home-worth/",
+    "/guides/arizona-home-buying-process/",
+    "/contact/"
+  ]
 }

@@ -8,7 +8,7 @@ export default function Header() {
       <div className="topbar">
         <div className="wrap">
           <span>REALTOR® · {TEAM} · <span className="topbar__hide">Surprise &amp; the West Valley</span></span>
-          <span>Call or text <a href={TEL}>{PHONE}</a> <span className="topbar__hide">· <span className="topbar__note">Mobile notary 24/7</span> <a href={NOTARY_TEL}>{NOTARY_PHONE}</a></span></span>
+          <span>Call or text <a href={TEL}>{PHONE}</a> <span className="topbar__hide">· <span className="topbar__note">Mobile notary available 24/7</span></span></span>
         </div>
       </div>
       <header className="header">

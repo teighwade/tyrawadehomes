@@ -4,6 +4,7 @@ import { getGuides } from '../lib/content';
 import { graph, notaryNode } from '../lib/schema';
 import JsonLd from '../components/JsonLd';
 import { ListingCard } from '../components/Listings';
+import FeaturedProperty from '../components/FeaturedProperty';
 import { Cta } from '../components/PageView';
 import Social from '../components/Social';
 import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow, Sparkle } from '../components/Icons';
@@ -24,8 +25,8 @@ const HOME_FAQ = [
 ];
 
 export default async function HomePage() {
-  const { active, pending, sold } = await getListings();
-  const showcase = [...active, ...pending, ...sold].slice(0, 6);
+  const { active, pending, sold, featured } = await getListings();
+  const showcase = [...active, ...pending, ...sold].filter((l) => l.id !== featured?.id).slice(0, 6);
   const guides = getGuides();
   return (
     <>
@@ -54,6 +55,8 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      <FeaturedProperty l={featured} />
 
       <section className="section">
         <div className="wrap">

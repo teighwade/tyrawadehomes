@@ -216,3 +216,7 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .footer ul.social { display: flex; flex-wrap: wrap; gap: 8px; }
 .footer ul.social li { margin: 0; }
 .social--icons a { width: 38px; height: 38px; }
+.footer ul.social { gap: 6px; flex-wrap: nowrap; }
+.footer .social--icons a { width: 32px; height: 32px; }
+.footer .social--icons svg { width: 15px; height: 15px; }
+@media (max-width: 380px) { .footer ul.social { flex-wrap: wrap; } }

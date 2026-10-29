@@ -40,7 +40,22 @@ export default async function ContentPage({ params }) {
       crumbsTrail={trail}
       notary={isNotary}
       before={page.kind === 'areas' ? <AreaFacts page={page} /> : path === '/about/' ? <img src="/images/teigh-wade-full-body.jpg" alt="Teigh Wade, REALTOR®" width="1600" height="1600" style={{ width: 'min(100%, 420px)', borderRadius: 24, margin: '0 0 32px', background: '#fff' }} /> : null}
-      after={path === '/about/' || path === '/contact/' ? <div className="social-strip" style={{ marginTop: 40 }}><p><b>Follow along</b> Find me on social media</p><Social variant="round" /></div> : null}
+      after={path === '/about/' || path === '/contact/' ? (
+        <>
+          {path === '/about/' && (
+            <section className="fun-fact">
+              <img src="/images/teigh-wade-tesla.jpg" alt="Teigh Wade with her Frost Blue Tesla Model S Plaid" width="1440" height="1910" loading="lazy" />
+              <div>
+                <p className="eyebrow">Fun fact</p>
+                <h2>The blue on this website? That's my car.</h2>
+                <p>Meet my Tesla Model S Plaid in Frost Blue Metallic. I loved the color so much that it became the color of this website. It's calm, it's classy, and it gets me to showings and notary appointments all over the Valley.</p>
+                <p>If you see a Frost Blue Model S parked outside an open house in Surprise, come say hi.</p>
+              </div>
+            </section>
+          )}
+          <div className="social-strip" style={{ marginTop: 40 }}><p><b>Follow along</b> Find me on social media</p><Social variant="round" /></div>
+        </>
+      ) : null}
       extraSchema={isNotary ? [notaryNode()] : []}
     />
   );

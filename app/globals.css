@@ -265,3 +265,10 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .feature__badge--pending { background: #fff; color: var(--ink); }
 .cta .btn--ink { background: #fff; color: var(--clay); }
 .cta .btn--ink:hover { background: #e8edf1; color: var(--clay-2); }
+
+/* About page: fun fact with the Tesla photo */
+.fun-fact { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: 32px; align-items: center; margin-top: 48px; padding: 24px; background: var(--sand); border: 1px solid var(--line); border-radius: 22px; }
+.fun-fact img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 60% 50%; border-radius: 16px; }
+.fun-fact h2 { font-size: clamp(26px, 2.6vw, 32px); margin-top: 0; }
+.fun-fact p:last-child { margin-bottom: 0; }
+@media (max-width: 700px) { .fun-fact { grid-template-columns: 1fr; } .fun-fact img { max-width: 360px; } }

@@ -257,3 +257,11 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .feature__tour-note { margin: 14px 0 0; font-size: 15px; color: #c3cbd6; }
 .feature__tour-note a { color: #fff; }
 @media (max-width: 700px) { .feature__tour-frame { aspect-ratio: 4 / 5; } }
+
+/* On dark (Frost Blue) sections, primary buttons and badges go light for contrast */
+.feature .btn--clay, .notary-band .btn--clay, .aside__card .btn--clay { background: #fff; color: var(--clay); }
+.feature .btn--clay:hover, .notary-band .btn--clay:hover, .aside__card .btn--clay:hover { background: #e8edf1; color: var(--clay-2); }
+.feature__badge { background: var(--gold); color: var(--ink); }
+.feature__badge--pending { background: #fff; color: var(--ink); }
+.cta .btn--ink { background: #fff; color: var(--clay); }
+.cta .btn--ink:hover { background: #e8edf1; color: var(--clay-2); }

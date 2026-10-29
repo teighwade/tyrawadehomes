@@ -18,7 +18,7 @@ export const metadata = {
   icons: { icon: '/icon.svg' },
 };
 
-export const viewport = { themeColor: '#171b26' };
+export const viewport = { themeColor: '#2b3a4e' };
 
 export default function RootLayout({ children }) {
   return (

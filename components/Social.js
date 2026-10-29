@@ -22,7 +22,7 @@ export default function Social({ variant = 'pills', review = true }) {
       {items.map((s) => (
         <li key={s.href}>
           <a href={s.href} target="_blank" rel="noopener" aria-label={s.label} title={s.label}>
-            <SocialIcon k={s.key} />{variant === 'pills' && <span>{s.label}</span>}
+            <SocialIcon k={s.key} />{variant === 'pills' && <span>{s.label}</span>}{variant === 'round' && <span className="sr-only">{s.label}</span>}
           </a>
         </li>
       ))}

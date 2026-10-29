@@ -175,15 +175,14 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="section section--sand" style={{ padding: '56px 0' }}>
-        <div className="wrap">
-          <p className="eyebrow">Follow along</p>
-          <h2 style={{ fontSize: 34 }}>Find me on social media</h2>
-          <Social />
+      <div className="wrap" style={{ paddingTop: 8 }}>
+        <div className="social-strip">
+          <p><b>Follow along</b> Find me on social media</p>
+          <Social variant="round" />
         </div>
-      </section>
+      </div>
 
-      <div className="wrap" style={{ padding: '80px var(--gutter)' }}><Cta /></div>
+      <div className="wrap" style={{ padding: '40px var(--gutter) 80px' }}><Cta /></div>
     </>
   );
 }

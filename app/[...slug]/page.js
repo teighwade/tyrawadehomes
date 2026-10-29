@@ -40,7 +40,7 @@ export default async function ContentPage({ params }) {
       crumbsTrail={trail}
       notary={isNotary}
       before={page.kind === 'areas' ? <AreaFacts page={page} /> : path === '/about/' ? <img src="/images/teigh-wade-full-body.jpg" alt="Teigh Wade, REALTOR®" width="1600" height="1600" style={{ width: 'min(100%, 420px)', borderRadius: 24, margin: '0 0 32px', background: '#fff' }} /> : null}
-      after={path === '/about/' || path === '/contact/' ? <section><h2>Follow me on social media</h2><Social /></section> : null}
+      after={path === '/about/' || path === '/contact/' ? <div className="social-strip" style={{ marginTop: 40 }}><p><b>Follow along</b> Find me on social media</p><Social variant="round" /></div> : null}
       extraSchema={isNotary ? [notaryNode()] : []}
     />
   );

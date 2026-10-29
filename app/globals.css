@@ -1,8 +1,8 @@
 /* Teigh Wade Homes: warm desert modern. Cormorant Garamond display + Manrope text. */
 :root {
   /* Soft, trust-focused palette: slate blue, warm off-white, muted gold */
-  --ink: #25313b; --ink-2: #47535e; --muted: #6b7686; --sand: #f3f1ec; --sand-2: #e8e4dc; --paper: #fbfaf7;
-  --clay: #384c5b; --clay-2: #2b3b47; /* Tesla Frost Blue Metallic (paint code PB00/29M) */ --sage: #5d7a6b; --gold: #c2a46b; --line: #e2ded5; --night: #2e3f4c;
+  --ink: #23303d; --ink-2: #47535e; --muted: #6b7686; --sand: #f3f1ec; --sand-2: #e8e4dc; --paper: #fbfaf7;
+  --clay: #52759b; --clay-2: #415f80; /* Tesla Frost Blue Metallic, sampled from Teigh's car in sunlight */ --sage: #5d7a6b; --gold: #c2a46b; --line: #e2ded5; --night: #2e3f4c; --frost: #dbe6ef; --frost-2: #c8d7e4; --frost-ink: #1f2c39;
   --radius: 18px; --wrap: 1180px; --gutter: clamp(16px, 4vw, 32px);
   --display: 'Cormorant Garamond', Georgia, serif; --text: 'Manrope', system-ui, -apple-system, sans-serif;
   --shadow: 0 18px 40px -24px rgba(38, 53, 74, .28);
@@ -62,14 +62,14 @@ p { margin: 0 0 1.1em; }
 @media (max-width: 560px) { .header__cta { display: none; } .brand__name { font-size: 24px; } .brand__mark { width: 40px; height: 40px; } .topbar__hide { display: none; } }
 
 /* Hero (home) */
-.hero { position: relative; overflow: hidden; background: radial-gradient(1200px 520px at 85% -10%, #dde5eb 0%, transparent 60%), linear-gradient(180deg, var(--sand) 0%, var(--paper) 100%); border-bottom: 1px solid var(--line); }
+.hero { position: relative; overflow: hidden; background: radial-gradient(1200px 560px at 85% -10%, #d3e1ee 0%, transparent 62%), linear-gradient(180deg, var(--sand) 0%, var(--paper) 100%); border-bottom: 1px solid var(--line); }
 .hero .wrap { display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center; padding-top: clamp(48px, 7vw, 96px); padding-bottom: clamp(48px, 7vw, 96px); }
 .hero h1 em { font-style: italic; color: var(--clay); }
 .hero__lead { font-size: 19.5px; max-width: 34em; color: var(--ink-2); }
 .hero__meta { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 26px; font-size: 14.5px; color: var(--muted); }
 .hero__meta span { display: inline-flex; align-items: center; gap: 8px; }
 .hero__meta svg { color: var(--sage); }
-.portrait { position: relative; aspect-ratio: 4 / 5; border-radius: 220px 220px 24px 24px; overflow: hidden; background: linear-gradient(160deg, #d9e2e9 0%, #384c5b 55%, #23313b 100%); box-shadow: var(--shadow); }
+.portrait { position: relative; aspect-ratio: 4 / 5; border-radius: 220px 220px 24px 24px; overflow: hidden; background: linear-gradient(160deg, #e3ecf4 0%, #8fadcb 55%, #52759b 100%); box-shadow: var(--shadow); }
 .portrait img { width: 100%; height: 100%; object-fit: cover; }
 .portrait__mono { position: absolute; inset: 0; display: grid; place-items: center; color: rgba(255,255,255,.9); font: italic 600 clamp(120px, 16vw, 210px)/1 var(--display); }
 .portrait__badge { position: absolute; left: 18px; right: 18px; bottom: 18px; background: rgba(255,253,249,.94); border-radius: 14px; padding: 14px 18px; color: var(--ink); font-size: 14px; line-height: 1.45; }
@@ -272,3 +272,52 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .fun-fact h2 { font-size: clamp(26px, 2.6vw, 32px); margin-top: 0; }
 .fun-fact p:last-child { margin-bottom: 0; }
 @media (max-width: 700px) { .fun-fact { grid-template-columns: 1fr; } .fun-fact img { max-width: 360px; } }
+
+
+/* ===== Light Frost Blue theme: former dark sections become light frost blue with dark text ===== */
+.topbar { background: var(--frost); color: var(--frost-ink); border-bottom: 1px solid var(--frost-2); }
+.topbar a { color: var(--clay-2); }
+.topbar a:hover { color: var(--ink); }
+.topbar__note { color: var(--clay-2); }
+.header { background: rgba(251, 250, 247, .95); }
+
+.feature, .notary-band, .aside__card, .cta, .footer, .section--night { background: linear-gradient(180deg, var(--frost) 0%, var(--frost-2) 100%); color: var(--frost-ink); }
+.feature h2, .feature h3, .notary-band h2, .aside__card h3, .cta h2, .footer h2, .section--night h2, .section--night h3 { color: var(--ink); }
+.feature .eyebrow, .notary-band .eyebrow, .feature__tour .eyebrow { color: var(--clay-2) !important; }
+.feature__price, .feature__addr, .feature__stats dd { color: var(--ink); }
+.feature__city, .feature__remarks, .feature__call, .feature__tour-note, .notary-band p, .aside__card p, .cta p { color: #34485b; }
+.feature__city svg { color: var(--clay); }
+.feature__call a, .feature__tour-note a { color: var(--clay-2); }
+.feature__courtesy { color: #56697b; }
+.feature__stats div { border-color: rgba(35, 48, 61, .14); background: rgba(255, 255, 255, .55); }
+.feature__stats dt { color: #56697b; }
+.feature__main, .feature__tour-frame { box-shadow: 0 24px 50px -28px rgba(35, 48, 61, .45); }
+.feature__badge { background: var(--clay); color: #fff; }
+.feature__badge--pending { background: var(--gold); color: var(--ink); }
+
+/* buttons on light frost sections: solid Frost Blue with white text; outline buttons in ink */
+.feature .btn--clay, .notary-band .btn--clay, .aside__card .btn--clay { background: var(--clay); color: #fff; }
+.feature .btn--clay:hover, .notary-band .btn--clay:hover, .aside__card .btn--clay:hover { background: var(--clay-2); color: #fff; }
+.feature .btn--ghost, .notary-band .btn--light, .aside__card .btn--light, .cta .btn--light { color: var(--ink); border-color: rgba(35, 48, 61, .45); background: rgba(255, 255, 255, .4); }
+.feature .btn--ghost:hover, .notary-band .btn--light:hover, .aside__card .btn--light:hover, .cta .btn--light:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.cta .btn--ink { background: var(--clay); color: #fff; }
+.cta .btn--ink:hover { background: var(--clay-2); color: #fff; }
+
+.notary-band .price { color: var(--clay-2); }
+.notary-band .price small { color: #56697b; }
+.notary-band .ticks svg { color: var(--clay); }
+
+/* footer */
+.footer { color: #34485b; border-top: 1px solid var(--frost-2); }
+.footer a { color: var(--ink); }
+.footer a:hover { color: var(--clay); }
+.footer h3 { color: var(--clay-2); }
+.footer__brand .brand__name { color: var(--ink); }
+.footer__brand .brand__sub { color: #56697b !important; }
+.footer__legal { border-top-color: rgba(35, 48, 61, .14); }
+.footer__legal svg { color: var(--ink); }
+.footer__legal strong { color: var(--ink) !important; }
+.footer__credit { color: #56697b; }
+.footer__credit a { color: var(--clay-2); }
+.social--icons a { border-color: rgba(35, 48, 61, .22); color: var(--ink); background: rgba(255, 255, 255, .5); }
+.social--icons a:hover { background: var(--clay); border-color: var(--clay); color: #fff; }

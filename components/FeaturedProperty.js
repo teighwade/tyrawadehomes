@@ -59,6 +59,7 @@ export default function FeaturedProperty({ l }) {
               <iframe src={tourSrc} title={`360° virtual tour of ${l.street}, ${l.city}`} loading="lazy" allow="fullscreen; xr-spatial-tracking" allowFullScreen />
             </div>
             <p className="feature__tour-note">Walk through the home from anywhere. Tap the screen to start, and use the dollhouse and floor plan views to see the full layout. <a href={tour} target="_blank" rel="noopener">Open the tour full screen →</a></p>
+            <p className="feature__courtesy">3D tour provided by Homes.com, powered by Matterport.</p>
           </div>
         )}
       </div>

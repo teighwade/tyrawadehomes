@@ -115,8 +115,8 @@ a.card:hover { border-color: var(--clay); transform: translateY(-2px); box-shado
 .tabs a[aria-current='true'] { background: var(--ink); border-color: var(--ink); color: #fff; }
 .listing { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: .15s; }
 a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color: inherit; }
-.listing__img { position: relative; aspect-ratio: 3 / 2; background: linear-gradient(135deg, var(--sand-2), #e2cdb6); }
-.listing__img img { width: 100%; height: 100%; object-fit: cover; }
+.listing__img { position: relative; aspect-ratio: 3 / 2; overflow: hidden; background: linear-gradient(135deg, var(--sand-2), #e2cdb6); }
+.listing__img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .listing__badge { position: absolute; top: 14px; left: 14px; padding: 6px 12px; border-radius: 999px; font: 800 11.5px/1 var(--text); letter-spacing: .12em; text-transform: uppercase; color: #fff; background: var(--sage); }
 .listing__badge--pending { background: var(--gold); color: var(--ink); }
 .listing__badge--sold { background: var(--clay); }

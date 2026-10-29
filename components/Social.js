@@ -18,7 +18,7 @@ export function SocialIcon({ k }) {
 }
 
 // variant: 'pills' (labels) or 'icons'
-export default function Social({ variant = 'pills', review = true }) {
+export default function Social({ variant = 'pills', review = false }) {
   const items = [...SOCIAL, ...(review ? [{ key: 'google', label: 'Leave a Google review', short: 'Google reviews', href: GOOGLE_REVIEW }] : [])];
   return (
     <ul className={`social social--${variant}`}>

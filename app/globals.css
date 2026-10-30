@@ -39,6 +39,9 @@ p { margin: 0 0 1.1em; }
 .header .wrap { display: flex; align-items: center; gap: 24px; min-height: 78px; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); margin-right: auto; }
 .brand__mark { width: 46px; height: 46px; flex: none; }
+.brand__logo { display: block; height: 68px; width: auto; }
+.brand--footer { margin-bottom: 6px; } .brand--footer .brand__logo { height: 96px; }
+.footer__team { margin: 0 0 14px; font: 700 11.5px/1.2 var(--text); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-2); }
 .brand__name { display: block; font: 600 27px/1 var(--display); letter-spacing: .01em; }
 .brand__sub { display: block; font: 600 10.5px/1.2 var(--text); letter-spacing: .16em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
 .nav { display: flex; align-items: center; gap: 2px; list-style: none; margin: 0; padding: 0; }
@@ -59,7 +62,7 @@ p { margin: 0 0 1.1em; }
 .mnav__group a.mnav__top { font-weight: 800; color: var(--ink); font-size: 17px; }
 .mnav__cta { display: grid; gap: 10px; margin-top: 18px; }
 @media (max-width: 1120px) { .nav { display: none; } .mnav { display: block; } .header .wrap { position: relative; } }
-@media (max-width: 560px) { .header__cta { display: none; } .brand__name { font-size: 24px; } .brand__mark { width: 40px; height: 40px; } .topbar__hide { display: none; } }
+@media (max-width: 560px) { .header__cta { display: none; } .brand__name { font-size: 24px; } .brand__mark { width: 40px; height: 40px; } .header .brand__logo { height: 54px; } .topbar__hide { display: none; } }
 
 /* Hero (home) */
 .hero { position: relative; overflow: hidden; background: radial-gradient(1200px 560px at 85% -10%, #d3e1ee 0%, transparent 62%), linear-gradient(180deg, var(--sand) 0%, var(--paper) 100%); border-bottom: 1px solid var(--line); }

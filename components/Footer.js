@@ -1,5 +1,5 @@
 import { NAME, PHONE, TEL, SMS, EMAIL, NOTARY_PHONE, NOTARY_TEL, LICENSE, TEAM, BROKERAGE, BROKERAGE_LICENSE, AREAS } from '../lib/site';
-import { Mark, EqualHousing, Phone, Chat } from './Icons';
+import { EqualHousing, Phone, Chat } from './Icons';
 import Social from './Social';
 
 export default function Footer() {
@@ -9,7 +9,8 @@ export default function Footer() {
       <div className="wrap">
         <div className="footer__grid">
           <div className="footer__brand">
-            <a href="/" className="brand" style={{ marginBottom: 16 }}><Mark /><span><span className="brand__name">Teigh Wade</span><span className="brand__sub" style={{ color: '#aab0bc' }}>REALTOR® · {TEAM}</span></span></a>
+            <a href="/" className="brand brand--footer" aria-label="Teigh Wade, REALTOR®: home"><img className="brand__logo" src="/images/teigh-wade-logo.webp" alt="Teigh Wade, REALTOR®" width="900" height="368" loading="lazy" /></a>
+            <p className="footer__team">{TEAM}</p>
             <p>Listing and buyer representation across Surprise, Phoenix and the West Valley, plus mobile notary and loan signing services statewide.</p>
             <ul>
               <li><a href={TEL}>Call {PHONE}</a> · <a href={SMS}>Text</a></li>

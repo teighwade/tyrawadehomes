@@ -10,6 +10,7 @@ export const Tag = () => <svg {...P}><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8
 export const Pen = () => <svg {...P}><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>;
 export const Pin = () => <svg {...P}><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" /><circle cx="12" cy="10" r="3" /></svg>;
 export const Clock = () => <svg {...P}><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></svg>;
+export const Globe = () => <svg {...P}><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>;
 export const Heart = () => <svg {...P}><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z" /></svg>;
 export const Rings = () => <svg {...P}><circle cx="9" cy="14" r="6" /><circle cx="15" cy="14" r="6" /><path d="m9 4 3-2 3 2" /></svg>;
 export const Book = () => <svg {...P}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z" /><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5" /></svg>;

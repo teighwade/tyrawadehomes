@@ -7,6 +7,7 @@ import { ListingCard } from '../components/Listings';
 import FeaturedProperty from '../components/FeaturedProperty';
 import { Cta } from '../components/PageView';
 import Social from '../components/Social';
+import { Logo, BrandBand } from '../components/Brand';
 import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow, Sparkle } from '../components/Icons';
 
 export const revalidate = 3600;
@@ -34,6 +35,7 @@ export default async function HomePage() {
       <section className="hero">
         <div className="wrap">
           <div>
+            <Logo className="hero__logo" sizes="(max-width: 600px) 78vw, 400px" alt="Teigh Wade, REALTOR® logo" />
             <p className="eyebrow">REALTOR® · {TEAM}</p>
             <h1>West Valley real estate, with <em>THE Real T</em>.</h1>
             <p className="hero__lead">I'm Teigh Wade, a Phoenix native and Surprise-based REALTOR® who helps people sell and buy homes across the West Valley. “Getting the sale” isn't my mission. Helping you through every step of real estate is.</p>
@@ -75,6 +77,8 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      <BrandBand />
 
       <section className="section section--sand">
         <div className="wrap">

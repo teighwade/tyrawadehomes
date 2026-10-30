@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { getByPath, allContentPaths } from '../../lib/content';
 import PageView, { metaFor } from '../../components/PageView';
+import { BrandBand } from '../../components/Brand';
 import { notaryNode } from '../../lib/schema';
 import Social from '../../components/Social';
 
@@ -53,6 +54,7 @@ export default async function ContentPage({ params }) {
               </div>
             </section>
           )}
+          <div style={{ marginTop: 48 }}><BrandBand card /></div>
           <div className="social-strip" style={{ marginTop: 40 }}><p><b>Follow along</b> Find me on social media</p><Social variant="round" /></div>
         </>
       ) : null}

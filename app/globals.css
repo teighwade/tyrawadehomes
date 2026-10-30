@@ -321,3 +321,73 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .footer__credit a { color: var(--clay-2); }
 .social--icons a { border-color: rgba(35, 48, 61, .22); color: var(--ink); background: rgba(255, 255, 255, .5); }
 .social--icons a:hover { background: var(--clay); border-color: var(--clay); color: #fff; }
+
+/* ===== Rose-gold brand: logo + T-shirt artwork (transparent PNG/WebP on the site's own sections) ===== */
+:root {
+  --rose-1: #f6dccb; --rose-2: #e2ad91; --rose-3: #c98e6f; --rose-4: #a96c50; --rose-ink: #8a5540;
+  --rose-grad: linear-gradient(105deg, #f6dccb 0%, #d39a7c 34%, #f3cdb7 54%, #b8785a 78%, #e7b79b 100%);
+  --rose-grad-deep: linear-gradient(105deg, #8a5540 0%, #b77a5c 45%, #93604a 70%, #a96c50 100%);
+  --script: 'Great Vibes', 'Brush Script MT', cursive;
+}
+.logo { display: block; height: auto; }
+
+/* Header + footer logo */
+.header .wrap { min-height: 96px; }
+.brand__logo { width: 150px; }
+@media (max-width: 560px) { .header .wrap { min-height: 78px; } .brand__logo { width: 104px; } }
+.footer__logo { display: inline-block; margin-bottom: 10px; }
+.footer__logo .logo { width: min(240px, 70vw); }
+.footer__team { margin: 0 0 14px; font-weight: 700; color: var(--ink); letter-spacing: .02em; }
+
+/* Home hero logo */
+.hero__logo { width: min(400px, 78vw); margin: 0 0 22px -6px; }
+
+/* Key charm on inner-page headers (desktop only, decorative) */
+.page-hero { position: relative; overflow: hidden; }
+.page-hero::after { content: ''; position: absolute; top: 26px; right: max(var(--gutter), calc((100vw - var(--wrap)) / 2 + var(--gutter))); width: 112px; height: 136px; background: url('/brand/key-charm-201.webp') no-repeat center / contain; pointer-events: none; transform: rotate(-8deg); }
+@media (max-width: 1100px) { .page-hero::after { display: none; } }
+
+/* CTA: script tagline with key charm */
+.cta__script { display: flex; align-items: center; gap: 10px; margin: 0 0 6px !important; font: 400 clamp(30px, 3.4vw, 42px)/1.15 var(--script); color: var(--rose-ink) !important; background: var(--rose-grad-deep); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; padding: 0 .2em .1em 0; }
+.cta__key { width: 34px; height: auto; flex: none; transform: rotate(-10deg); -webkit-text-fill-color: initial; }
+
+/* The T-shirt back, rebuilt: dark band like the shirt so the rose gold glows */
+.brandband { position: relative; background: radial-gradient(900px 520px at 78% 18%, rgba(201, 142, 111, .16), transparent 62%), radial-gradient(700px 420px at 10% 90%, rgba(201, 142, 111, .08), transparent 60%), #121417; color: #e9d6c9; padding: clamp(56px, 8vw, 104px) 0; overflow: hidden; }
+.brandband--card { border-radius: 28px; padding: clamp(28px, 5vw, 52px) clamp(20px, 4vw, 44px); }
+.brandband__top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 420px); gap: 16px 40px; align-items: center; max-width: 1040px; margin: 0 auto; }
+.brandband__script { margin: 0; font: 400 clamp(64px, 9vw, 128px)/.82 var(--script); letter-spacing: 0; color: var(--rose-2); }
+.brandband__script span { display: block; width: max-content; max-width: 100%; padding: .12em .3em .16em .08em; margin: -.12em 0 -.16em; background: var(--rose-grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.brandband__script span:nth-child(2) { margin-left: .55em; }
+.brandband__script span:nth-child(3) { margin-left: .1em; }
+.brandband__script span:nth-child(4) { margin-left: .8em; }
+.brandband__scene { width: 100%; max-width: 420px; justify-self: center; filter: drop-shadow(0 18px 40px rgba(0, 0, 0, .45)); }
+.brandband__id { text-align: center; margin-top: clamp(24px, 4vw, 40px); }
+.brandband__rule { display: flex; align-items: center; gap: 16px; max-width: 640px; margin: 0 auto 20px; }
+.brandband__rule::before, .brandband__rule::after { content: ''; flex: 1; height: 1.5px; background: linear-gradient(90deg, transparent, var(--rose-3)); }
+.brandband__rule::after { background: linear-gradient(90deg, var(--rose-3), transparent); }
+.brandband__heart { width: 30px; height: 26px; flex: none; }
+.brandband__name { margin: 0; font: 600 clamp(36px, 5.2vw, 64px)/1 var(--display); letter-spacing: .2em; text-transform: uppercase; padding-left: .2em; background: var(--rose-grad); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.brandband__title { display: flex; align-items: center; justify-content: center; gap: 18px; max-width: 640px; margin: 12px auto 26px; font: 600 clamp(16px, 1.7vw, 21px)/1 var(--display); letter-spacing: .5em; color: var(--rose-2); }
+.brandband__title span { padding-left: .5em; }
+.brandband__title::before, .brandband__title::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--rose-3)); }
+.brandband__title::after { background: linear-gradient(90deg, var(--rose-3), transparent); }
+.brandband__contact { list-style: none; margin: 0 0 28px; padding: 0; display: grid; gap: 10px; justify-items: center; }
+.brandband__contact a { display: inline-flex; align-items: center; gap: 14px; font: 600 clamp(24px, 3vw, 36px)/1.2 var(--display); color: var(--rose-1); text-decoration: none; font-variant-numeric: lining-nums; }
+.brandband__contact a:hover { color: #fff; }
+.brandband__ico { width: 1.15em; height: 1.15em; border: 1.5px solid var(--rose-3); border-radius: 50%; display: grid; place-items: center; color: var(--rose-2); flex: none; }
+.brandband__ico .icon { width: 58%; height: 58%; }
+.brandband__broker { width: min(220px, 60vw); height: auto; margin: 0 auto; opacity: .95; }
+.brandband a:focus-visible { outline: 2px solid var(--rose-2); outline-offset: 4px; border-radius: 6px; }
+@media (max-width: 760px) {
+  .brandband__top { grid-template-columns: 1fr; justify-items: center; text-align: left; }
+  .brandband__script { font-size: clamp(54px, 15vw, 84px); }
+  .brandband__scene { max-width: 300px; }
+  .brandband__name { letter-spacing: .14em; }
+  .brandband__title { letter-spacing: .38em; gap: 12px; }
+}
+/* inside a page's text column */
+.prose .brandband--card .brandband__top { grid-template-columns: minmax(0, 1fr) minmax(180px, 300px); }
+.prose .brandband--card .brandband__script { font-size: clamp(54px, 6.4vw, 92px); }
+.prose .brandband--card p, .prose .brandband--card ul { max-width: none; }
+@media (max-width: 760px) { .prose .brandband--card .brandband__top { grid-template-columns: 1fr; } }
+@media (min-width: 1101px) { .page-hero h1, .page-hero .crumbs { max-width: min(18em, calc(100% - 150px)); } }

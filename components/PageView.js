@@ -1,6 +1,7 @@
 import { getByPath, titleFor } from '../lib/content';
 import { graph, crumbs, faqNode, PERSON_ID, AGENT_ID } from '../lib/schema';
-import { SITE_URL, PHONE, TEL, SMS, NOTARY_PHONE, NOTARY_TEL } from '../lib/site';
+import { SITE_URL, PHONE, TEL, SMS, NOTARY_PHONE, NOTARY_TEL, OG_IMAGE } from '../lib/site';
+import { KeyCharm } from './Brand';
 import JsonLd from './JsonLd';
 import { Phone, Chat, Arrow } from './Icons';
 
@@ -12,7 +13,7 @@ export function metaFor(page, fallbackTitle) {
     title: { absolute: title },
     description: page?.description,
     alternates: { canonical: SITE_URL + page?.path },
-    openGraph: { title, description: page?.description, url: SITE_URL + page?.path, type: page?.kind === 'guides' ? 'article' : 'website', siteName: 'Teigh Wade Homes' },
+    openGraph: { title, description: page?.description, url: SITE_URL + page?.path, type: page?.kind === 'guides' ? 'article' : 'website', siteName: 'Teigh Wade Homes', images: [OG_IMAGE] },
   };
 }
 
@@ -50,6 +51,7 @@ export function Cta({ notary = false }) {
   return (
     <div className="cta">
       <div>
+        {!notary && <p className="cta__script"><KeyCharm className="cta__key" />Buying · Selling · Building Dreams</p>}
         <h2>{notary ? 'Need a notary?' : "Let's talk about your move."}</h2>
         <p>{notary ? 'Short notice is fine. Call and tell me what you are signing, how many signers there are and where you are.' : 'Selling, buying or just curious what your home is worth? Call or text me. No pressure, just straight answers.'}</p>
       </div>

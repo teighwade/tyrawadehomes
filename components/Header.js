@@ -1,5 +1,6 @@
 import { NAV, PHONE, TEL, SMS, NOTARY_PHONE, NOTARY_TEL, TEAM, EMAIL } from '../lib/site';
-import { Mark, Phone, Chat } from './Icons';
+import { Phone, Chat } from './Icons';
+import { Logo } from './Brand';
 
 export default function Header() {
   return (
@@ -14,11 +15,7 @@ export default function Header() {
       <header className="header">
         <div className="wrap">
           <a href="/" className="brand" aria-label="Teigh Wade, REALTOR®: home">
-            <Mark />
-            <span>
-              <span className="brand__name">Teigh Wade</span>
-              <span className="brand__sub">REALTOR® · Mobile Notary</span>
-            </span>
+            <Logo className="brand__logo" sizes="(max-width: 560px) 104px, 150px" priority />
           </a>
           <nav aria-label="Main">
             <ul className="nav">

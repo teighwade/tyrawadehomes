@@ -12,7 +12,8 @@ export function metaFor(page, fallbackTitle) {
     title: { absolute: title },
     description: page?.description,
     alternates: { canonical: SITE_URL + page?.path },
-    openGraph: { title, description: page?.description, url: SITE_URL + page?.path, type: page?.kind === 'guides' ? 'article' : 'website', siteName: 'Teigh Wade Homes' },
+    openGraph: { title, description: page?.description, url: SITE_URL + page?.path, type: page?.kind === 'guides' ? 'article' : 'website', siteName: 'Teigh Wade Homes', images: [SHARE_IMAGE] },
+    twitter: { card: 'summary_large_image', images: [SHARE_IMAGE.url] },
   };
 }
 
@@ -46,17 +47,25 @@ export function Faqs({ faqs, title = 'Frequently asked questions', id = 'faq' })
   );
 }
 
-export function Cta({ notary = false }) {
+export const EMBLEM = { src: '/images/teigh-wade-emblem.webp', width: 800, height: 565, alt: 'Teigh Wade, REALTOR®: Listing, Selling, Building Dreams. HomeSmart. Professional staging.' };
+export const SHARE_IMAGE = { url: '/images/teigh-wade-share.jpg', width: 1200, height: 630, alt: 'Teigh Wade, REALTOR®: Listing, Selling, Building Dreams' };
+
+export function Emblem({ className = '', eager = false }) {
+  return <img className={`emblem ${className}`} src={EMBLEM.src} alt={EMBLEM.alt} width={EMBLEM.width} height={EMBLEM.height} loading={eager ? undefined : 'lazy'} />;
+}
+
+export function Cta({ notary = false, emblem = true }) {
   return (
-    <div className="cta">
-      <div>
+    <div className={`cta${emblem ? ' cta--emblem' : ''}`}>
+      {emblem && <div className="cta__emblem"><Emblem /></div>}
+      <div className="cta__text">
         <h2>{notary ? 'Need a notary?' : "Let's talk about your move."}</h2>
         <p>{notary ? 'Short notice is fine. Call and tell me what you are signing, how many signers there are and where you are.' : 'Selling, buying or just curious what your home is worth? Call or text me. No pressure, just straight answers.'}</p>
-      </div>
-      <div className="btn-row">
-        {notary
-          ? <a className="btn btn--ink" href={NOTARY_TEL}><Phone />{NOTARY_PHONE}</a>
-          : <><a className="btn btn--ink" href={TEL}><Phone />Call {PHONE}</a><a className="btn btn--light" href={SMS}><Chat />Text me</a></>}
+        <div className="btn-row">
+          {notary
+            ? <a className="btn btn--ink" href={NOTARY_TEL}><Phone />{NOTARY_PHONE}</a>
+            : <><a className="btn btn--ink" href={TEL}><Phone />Call {PHONE}</a><a className="btn btn--light" href={SMS}><Chat />Text me</a></>}
+        </div>
       </div>
     </div>
   );

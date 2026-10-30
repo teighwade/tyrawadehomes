@@ -5,7 +5,7 @@ import { graph, notaryNode } from '../lib/schema';
 import JsonLd from '../components/JsonLd';
 import { ListingCard } from '../components/Listings';
 import FeaturedProperty from '../components/FeaturedProperty';
-import { Cta } from '../components/PageView';
+import { Cta, Emblem } from '../components/PageView';
 import Social from '../components/Social';
 import { Phone, Chat, Home as HomeIcon, Key, Search, Tag, Pen, Check, Pin, Clock, Rings, Heart, Arrow, Sparkle } from '../components/Icons';
 
@@ -72,6 +72,18 @@ export default async function HomePage() {
             <a className="card" href="/first-time-home-buyers/"><span className="card__icon"><Check /></span><h3>First-time buyers</h3><p>Step-by-step help, Arizona down payment assistance basics and no question too small.</p><span className="card__go">Start here <Arrow /></span></a>
             <a className="card" href="/home-staging/"><span className="card__icon"><Sparkle /></span><h3>Home staging</h3><p>Consultations, hands-on styling or full staging with my own furniture and decor. Included when you list with me.</p><span className="card__go">Staging services <Arrow /></span></a>
             <a className="card" href="/mobile-notary/"><span className="card__icon"><Pen /></span><h3>Mobile notary</h3><p>Loan signings and everyday notarizations at your home, office or care facility, 24/7 by appointment.</p><span className="card__go">Notary services <Arrow /></span></a>
+          </div>
+          <div className="signature">
+            <div className="signature__art"><Emblem /></div>
+            <div className="signature__text">
+              <p className="eyebrow">My promise</p>
+              <h2>Listing. Selling. <em>Building dreams.</em></h2>
+              <p>Every home has a story, and every move is a big one. From staging your home so it shines in photos to finding the right fit for your family in the desert we love, I'm with you from the first walk-through to the keys in your hand.</p>
+              <div className="btn-row">
+                <a className="btn btn--clay" href="/sell-your-home/"><HomeIcon />List with Teigh</a>
+                <a className="btn btn--ghost" href="/home-staging/"><Sparkle />Professional staging</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -185,7 +197,7 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <div className="wrap" style={{ padding: '40px var(--gutter) 80px' }}><Cta /></div>
+      <div className="wrap" style={{ padding: '40px var(--gutter) 80px' }}><Cta emblem={false} /></div>
     </>
   );
 }

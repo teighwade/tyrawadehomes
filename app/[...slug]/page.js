@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getByPath, allContentPaths } from '../../lib/content';
-import PageView, { metaFor } from '../../components/PageView';
+import PageView, { metaFor, Emblem } from '../../components/PageView';
 import { notaryNode } from '../../lib/schema';
 import Social from '../../components/Social';
 
@@ -39,7 +39,12 @@ export default async function ContentPage({ params }) {
       path={path}
       crumbsTrail={trail}
       notary={isNotary}
-      before={page.kind === 'areas' ? <AreaFacts page={page} /> : path === '/about/' ? <img src="/images/teigh-wade-full-body.jpg" alt="Teigh Wade, REALTOR®" width="1600" height="1600" style={{ width: 'min(100%, 420px)', borderRadius: 24, margin: '0 0 32px', background: '#fff' }} /> : null}
+      before={page.kind === 'areas' ? <AreaFacts page={page} /> : path === '/home-staging/' ? (
+        <figure className="emblem-feature">
+          <Emblem eager />
+          <figcaption>Professional staging by Teigh Wade, REALTOR® with HomeSmart: listing, selling and building dreams across the West Valley.</figcaption>
+        </figure>
+      ) : path === '/about/' ? <img src="/images/teigh-wade-full-body.jpg" alt="Teigh Wade, REALTOR®" width="1600" height="1600" style={{ width: 'min(100%, 420px)', borderRadius: 24, margin: '0 0 32px', background: '#fff' }} /> : null}
       after={path === '/about/' || path === '/contact/' ? (
         <>
           {path === '/about/' && (

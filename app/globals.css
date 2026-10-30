@@ -324,3 +324,25 @@ a.listing:hover { box-shadow: var(--shadow); transform: translateY(-2px); color:
 .footer__credit a { color: var(--clay-2); }
 .social--icons a { border-color: rgba(35, 48, 61, .22); color: var(--ink); background: rgba(255, 255, 255, .5); }
 .social--icons a:hover { background: var(--clay); border-color: var(--clay); color: #fff; }
+
+
+/* ===== Signature emblem (rose-gold "Listing, Selling, Building Dreams") ===== */
+.emblem { display: block; width: 100%; height: auto; }
+.cta--emblem { display: grid; grid-template-columns: minmax(0, 300px) 1fr; gap: clamp(24px, 4vw, 48px); align-items: center; justify-content: stretch; }
+.cta__emblem { background: radial-gradient(closest-side, #fffdf9 0%, rgba(255, 253, 249, .92) 62%, rgba(255, 253, 249, 0) 100%); padding: 10px; border-radius: 50%; }
+.cta__text .btn-row { margin-top: 22px; }
+@media (max-width: 760px) { .cta--emblem { grid-template-columns: 1fr; text-align: center; } .cta__emblem { max-width: 280px; margin: 0 auto; } .cta--emblem .btn-row { justify-content: center; } .cta--emblem p { margin-left: auto; margin-right: auto; } }
+
+.signature { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 64px); align-items: center; margin-top: clamp(48px, 6vw, 72px); padding: clamp(24px, 4vw, 48px); border-radius: 28px; background: radial-gradient(700px 380px at 22% 50%, #fffaf5 0%, #f6ebe3 55%, var(--sand) 100%); border: 1px solid #ecdcd0; position: relative; overflow: hidden; }
+.signature::after { content: ''; position: absolute; inset: 12px; border: 1px solid rgba(183, 110, 84, .22); border-radius: 20px; pointer-events: none; }
+.signature__art { max-width: 520px; justify-self: center; width: 100%; }
+.signature__art .emblem { filter: drop-shadow(0 18px 28px rgba(122, 70, 48, .18)); }
+.signature .eyebrow { color: #a5654c; }
+.signature h2 { font-size: clamp(34px, 4vw, 50px); }
+.signature h2 em { color: #a5654c; }
+.signature__text p { max-width: 32em; }
+@media (max-width: 900px) { .signature { grid-template-columns: 1fr; text-align: center; } .signature__text p { margin-left: auto; margin-right: auto; } .signature .btn-row { justify-content: center; } .signature__art { max-width: 420px; } }
+
+.emblem-feature { margin: 0 0 40px; padding: clamp(20px, 3vw, 32px); border-radius: 24px; background: radial-gradient(520px 300px at 50% 45%, #fffaf5 0%, #f6ebe3 70%, var(--sand) 100%); border: 1px solid #ecdcd0; text-align: center; }
+.emblem-feature .emblem { max-width: 460px; margin: 0 auto; filter: drop-shadow(0 14px 22px rgba(122, 70, 48, .16)); }
+.emblem-feature figcaption { margin-top: 14px; font: italic 500 19px/1.4 var(--display); color: #7d5443; }

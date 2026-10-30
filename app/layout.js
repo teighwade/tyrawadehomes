@@ -16,6 +16,8 @@ export const metadata = {
   description: 'Teigh Wade, REALTOR® with HomeSmart Elite Group, helps buyers and sellers in Surprise, Phoenix and the West Valley. Mobile notary and loan signings 24/7.',
   robots: process.env.SITE_LIVE === 'true' ? { index: true, follow: true } : { index: false, follow: false },
   icons: { icon: '/icon.svg', apple: '/apple-touch-icon.png' },
+  openGraph: { siteName: 'Teigh Wade Homes', type: 'website', images: [{ url: '/images/teigh-wade-share.jpg', width: 1200, height: 630, alt: 'Teigh Wade, REALTOR®: Listing, Selling, Building Dreams' }] },
+  twitter: { card: 'summary_large_image', images: ['/images/teigh-wade-share.jpg'] },
 };
 
 export const viewport = { themeColor: '#dbe6ef' };
